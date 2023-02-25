@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+a{
+    text-decoration-color: #918E9B;
+    font-family: 'Inter';
+    font-size: 10.24px;
+    line-height: 12px;
+    color: #918E9B;
+}
+
+.nav{
+    padding: 16px;
+    background-color: #F55A5A;
+    display: flex;
+    justify-content: center;
+    column-gap: 7px;
+}
+
+.nav > h3{
+    font-weight: 500;
+    font-size: 14.4608px;
+    line-height: 18px;
+    letter-spacing: -0.035em;
+    color: #FFFFFF;
+}
+
+.container{
+    padding-bottom: 40px;
+}
+
+.container--main{
+    display: flex;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-independent{
+    background-color: blue;
+}
+
+.main--card{
+    display: flex;
+    padding: 40px 40px 0px 40px;
+}
+
+.main--card > img{
+    max-width: 125px;
+    height: 168px;
+    border-radius: 5px;
+}
+
+.main--content{
+    padding: 10px 20px;
+}
+
+.content--location{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    padding-bottom: 0px;
+}
+
+.content--location > p{
+    padding: 6px;
+    font-size: 10.24px;
+    line-height: 12px;
+    letter-spacing: 0.17em;
+    color: #2B283A;
+}
+
+.content--timeline{
+    font-size: 10.24px;
+    line-height: 12px;
+    padding: 12px 0px;
+    color: #2B283A;
+}
+
+.content--description{
+    font-size: 10.24px;
+    line-height: 150%;
+    color: #2B283A;
+}
